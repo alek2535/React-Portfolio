@@ -37,105 +37,124 @@
     "education":[
       {
         "school":"California State University Fresno",
-        "degree":"Interdisciplinary Marketing",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "level":"./images/1200px-California_State_University_Fresno_seal.svg_-1200x1200.png",
+        "degree":"Interdisciplinary Marketing"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"UCLA Extension",
+        "level":"./images/UCLA-Extension.png",
+        "degree":"Full-Stack Web Development"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Insight RX, Inc.",
+        "title":"Intern",
+        "years":"May 2020 - Present",
+        "description":"Created an application for the company with four fellow interns. Self-taught React to complete the project per the company's requirements. Attended weekly sprints to check on progress and address any recommendations from head engineer. Worked directly with the head engineer of the company along with another member of the engineering team."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"RPA",
+        "title":"Full-Stack Engineer-Freelance",
+        "years":"May 2020",
+        "description":"Helped create server-side API to get zip code. Used asynchronous JS, async/await, fetch, JSON, HTTP GET and POST requests. Helped create a local server to test project prototype and API calls. Helped create validation to determine if the zip code is a valid US zip code with 5 numbers."
       }
     ],
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"MERN",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"85%"
+      },
+      {
+        "name":"HTML5",
+        "level":"95%"
+      },
+      {
+        "name":"MySQL",
+        "level":"70%"
       },
       {
         "name":"MongoDB",
         "level":"80%"
+      }
+      ,
+      {
+        "name":"NodeJS",
+        "level":"85%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Zipcode Tracker",
+        "image":"Honda-Project.png",
+        "gitRepo":"https://github.com/Jaime-Huynh0901/Project1-H",
+        "url":"https://honda-zipcode.herokuapp.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Insight RX Villian Application",
+        "image":"Insight-RX-App.png",
+        "gitRepo":"https://github.com/carmenobied/Project-IRX",
+        "url":"https://sheltered-shelf-78967.herokuapp.com/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Employee-Tracker Command Line Application",
+        "image":"employee-tracker-demo.gif",
+        "gitRepo":"https://github.com/alek2535/Employee-Tracker",
+        "url":"https://drive.google.com/file/d/1Nf3qAOgXgl2qj1kCCYu2kNBC7oAkuFSw/view"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Weather Dashboard",
+        "image":"Weather-Dashboard.png",
+        "gitRepo":"https://github.com/alek2535/Weather-Dashboard",
+        "url":"https://alek2535.github.io/Weather-Dashboard/"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"OOP-Employee-Summary Command Line Application",
+        "image":"team-summary-oop.gif",
+        "gitRepo":"https://github.com/alek2535/OOP-Employee-Summary",
+        "url":"https://drive.google.com/file/d/15r9FbIJh4R3FEcFJERCYQ4pZFJEUzq9q/view"
+      },
+      {
+        "title":"Burger Logger API/MVC Application",
+        "image":"Burger-Logger-App.png",
+        "gitRepo":"https://github.com/alek2535/Burger-Logger",
+        "url":"https://polar-shelf-16735.herokuapp.com"
+      },
+      {
+        "title":"React Employee Tracker Application",
+        "image":"react-employee-tracker.png",
+        "gitRepo":"https://github.com/alek2535/React-Employee-Directory",
+        "url":"https://enigmatic-temple-92548.herokuapp.com/"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"After our initial meeting where the team were tasked with adding a geo-location feature to a project. They checked in with me often to let me know the status and their development process to make sure there weren’t any issues with their plan, which proved him to be a dependable colleague. When the code was delivered, I was impressed to see how well-structured and easy-to-read it was. It also used all ES6 features, which I believe shows them to be quick learners. During our time working together, the team have been very persistent in asking for feedback. I believe this persistence, passion, and curiosity prove that all of them would be a great asset to any team. And with the right guidance and training, I have no doubt they could excel in a higher-level development position.",
+        "user":"Parva Hashemi-Creative Technology Manager, RPA"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"I have witnessed well organized and effective teamwork geared towards delivering a complex internal product. The team used modern software idioms and an associated stack (React.js, Node.js, Express.js) as well as agile development methods with weekly sprints to iterate over a challenging list of requirements. The team was proactive, responsive, collaborative, and communicative which resulted in deliverables that met our requirements for the project.",
+        "user":"Alan Potosnak-Director of Engineering, InsightRx"
+      },
+      {
+        "text":"...witnessed team growth in technical problem solving, requirements gathering, and general programming ability through the development of a complex web application designed to automate and visualize a specific business process within InsightRx that has been an operational bottleneck for us for quite some time. Not only did the team demonstrate proficiency in widely used technologies (React.js, Node.js, Express.js, etc), they also went above and beyond expectations by deploying the application to the cloud, implementing a production-grade caching service to reduce HTTP overhead, dedicating additional effort to continuously improve the UI/UX, and most importantly, asking thoughtful questions along the way.",
+        "user":"Tedmund Chua-Software Engineer, InsightRx"
       }
     ]
   }

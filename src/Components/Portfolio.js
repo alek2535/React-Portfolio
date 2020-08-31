@@ -13,9 +13,10 @@ class Portfolio extends Component {
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
+                     <a href={projects.gitRepo} title={projects.gitRepo}><p>{projects.gitRepo}</p></a>
                   </div>
                 </div>
+              <div className="link-icon"><i className="fa fa-link"></i></div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
