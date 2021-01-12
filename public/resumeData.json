@@ -48,9 +48,15 @@
     ],
     "work":[
       {
+        "company":"DataSlate",
+        "title":"Intern",
+        "years":"November 2020 - Present",
+        "description":"Practice Agile methodolgies while working on projects with a small team."
+      },
+      {
         "company":"Insight RX, Inc.",
         "title":"Intern",
-        "years":"May 2020 - Present",
+        "years":"May 2020 - September 2020",
         "description":"Created an application for the company with four fellow interns. Self-taught React to complete the project per the company's requirements. Attended weekly sprints to check on progress and address any recommendations from head engineer. Worked directly with the head engineer of the company along with another member of the engineering team."
       },
       {
@@ -112,6 +118,10 @@
       {
         "name":"Mongoose",
         "level":"85%"
+      },
+      {
+        "name":"Redux",
+        "level":"50%"
       }
     ]
   },
